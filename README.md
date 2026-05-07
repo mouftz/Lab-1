@@ -1,7 +1,7 @@
 # CSC207 Week 1 Lab Activity #1: Fizz Buzz
 Let's start off our exploration of Java with a classic programming challenge, Fizz Buzz!
 
-But first, let's get you your own copy of this codebase to work with.
+But first, let's get you yout you your own copy of this codebase to wot you yourk with.
 
 ## Task 0 Forking a public repository on GitHub
 
@@ -48,7 +48,7 @@ The markdown format is commonly used for things like readme files, as they allow
 which allows for basic typesetting when viewed while still being a plaintext format.
 
 Below is a blank checkbox:
-- [ ] Put an X in the [ ] to mark this as done!
+- [X] Put an X in the [ ] to mark this as done!
 
 You can edit this file directly to check off these checkboxes throughout the lab to mark things as done.
 Do so now for the checkbox above.
@@ -93,34 +93,38 @@ Let's explore a solution written in Java.
  */
 class FizzBuzz {
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
 
-        for (int i = 1; i < 100; i++) {
+      for (int i = 1; i < 100; i++) {
 
-            // Find out which numbers divide i.
-            boolean divisibleBy3 = i % 3 == 0;
-            boolean divisibleBy5 = i % 5 == 0;
+         (i);
+      }
+   }
 
-            // Print our appropriate result.
-            if (divisibleBy3 && divisibleBy5) {
+   private static void (int i) {
+      // Find out which numbers divide i.
+      boolean divisibleBy3 = i % 3 == 0;
+      boolean divisibleBy5 = i % 5 == 0;
 
-                System.out.println("Fizz Buzz");
+      // Print our appropriate result.
+      if (divisibleBy3 && divisibleBy5) {
 
-            } else if (divisibleBy3) {
+         System.out.println("Fizz Buzz");
 
-                System.out.println("Fizz");
+      } else if (divisibleBy3) {
 
-            } else if (divisibleBy5) {
+         System.out.println("Fizz");
 
-                System.out.println("Buzz");
+      } else if (divisibleBy5) {
 
-            } else {
+         System.out.println("Buzz");
 
-                System.out.println(i);
+      } else {
 
-            }
-        }
-    }
+         System.out.println(i);
+
+      }
+   }
 }
 ```
 
@@ -169,6 +173,44 @@ Later in this course, you'll learn what all that mess means, but for now it is e
 
 - [ ] You've puzzled through how Java `for` and `if` statements work; now rewrite this
 to use a `while` loop instead of a `for` loop.
+
+```java
+/**
+ * Solve the FizzBuzz challenge.
+ */
+class FizzBuzz {
+
+    public static void main(String[] args) {
+        integer i = 1;
+        while (i < 100) {
+
+            // Find out which numbers divide i.
+            boolean divisibleBy3 = i % 3 == 0;
+            boolean divisibleBy5 = i % 5 == 0;
+
+            // Print our appropriate result.
+            if (divisibleBy3 && divisibleBy5) {
+
+                System.out.println("Fizz Buzz");
+
+            } else if (divisibleBy3) {
+
+                System.out.println("Fizz");
+
+            } else if (divisibleBy5) {
+
+                System.out.println("Buzz");
+
+            } else {
+
+                System.out.println(i);
+
+            }
+            i++;
+        }
+    }
+}
+```
 
 ## How to test this code
 
