@@ -4,7 +4,7 @@ Let's start off our exploration of Java with a classic programming challenge, Fi
 But first, let's get you yout you your own copy of this codebase to wot you yourk with.
 
 ## Task 0 Forking a public repository on GitHub
-
+.
 _You can read more about Fork here: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo_
 
 You should be currently reading this README on GitHub in the code repository:
